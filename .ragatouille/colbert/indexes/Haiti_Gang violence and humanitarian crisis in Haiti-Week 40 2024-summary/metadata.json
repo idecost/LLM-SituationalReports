@@ -1,0 +1,73 @@
+{
+  "config":{
+    "query_token_id":"[unused0]",
+    "doc_token_id":"[unused1]",
+    "query_token":"[Q]",
+    "doc_token":"[D]",
+    "ncells":null,
+    "centroid_score_threshold":null,
+    "ndocs":null,
+    "load_index_with_mmap":false,
+    "index_path":null,
+    "index_bsize":32,
+    "nbits":4,
+    "kmeans_niters":20,
+    "resume":false,
+    "pool_factor":1,
+    "clustering_mode":"hierarchical",
+    "protected_tokens":0,
+    "similarity":"cosine",
+    "bsize":64,
+    "accumsteps":1,
+    "lr":0.00001,
+    "maxsteps":400000,
+    "save_every":null,
+    "warmup":20000,
+    "warmup_bert":null,
+    "relu":false,
+    "nway":64,
+    "use_ib_negatives":true,
+    "reranker":false,
+    "distillation_alpha":1.0,
+    "ignore_scores":false,
+    "model_name":null,
+    "query_maxlen":32,
+    "attend_to_mask_tokens":false,
+    "interaction":"colbert",
+    "dim":128,
+    "doc_maxlen":256,
+    "mask_punctuation":true,
+    "checkpoint":"colbert-ir/colbertv2.0",
+    "triples":"/future/u/okhattab/root/unit/experiments/2021.10/downstream.distillation.round2.2_score/round2.nway6.cosine.ib/examples.64.json",
+    "collection":[
+      "list with 146 elements starting with...",
+      [
+        "\"Discussing other options now will only interfere with the implementation of the mission's mandate. After all, peacekeeping operations are not a panacea,\" said China's deputy ambassador to the UN, Geng Shuang. But they have also stressed that the problems facing the country will not be solved by force alone.Rights advocates have called for more support and training for Haiti's national police force, as well as an end to corruption and a Haitian-led political process.",
+        "\"Food doesn't come around very often,\" she said, adding that she depends on others to feed her children. \"When an organisation does provide food, there's a major fight,\" she said.St-Louis said she has to take her one-year-old to a clinic so he can receive a peanut butter mix \"so that his body doesn't collapse in my arms\". \"I'm sometimes so depressed that I sometimes want to kill the kids and myself,\" she said in a soft voice as she cradled the one-year-old in her arms while the five-year-old played with his friends.In another shelter nearby, Judeline Auguste, 39, said she depends solely on remittances to feed herself and her eight-year-old boy, but the money barely lasts a week. \"It's very rare that I can get a meal a day,\" she said.",
+        "\"For now, reinforcements are at the location to contain the situation and security forces are in control,\" the spokesperson said.The killings are the latest sign of a worsening conflict in Haiti, where armed gangs control most of the capital Port-au-Prince and are expanding to nearby regions, fuelling hunger and making hundreds of thousands homeless. Promised international support continues to lag and nearby nations have deported migrants back to the country. \"They were left to shoot anybody, everybody was running everywhere. They were walking, shooting people, killing people, burning people, burning homes, burning cars."
+      ]
+    ],
+    "queries":"/future/u/okhattab/data/MSMARCO/queries.train.tsv",
+    "index_name":"Haiti_Gang violence and humanitarian crisis in Haiti-Week 40 2024-summary",
+    "overwrite":false,
+    "root":".ragatouille/",
+    "experiment":"colbert",
+    "index_root":null,
+    "name":"2025-09/24/08.45.58",
+    "rank":0,
+    "nranks":1,
+    "amp":true,
+    "gpus":0,
+    "avoid_fork_if_possible":false
+  },
+  "num_chunks":1,
+  "num_partitions":2048,
+  "num_embeddings":20642,
+  "avg_doclen":141.3835616438,
+  "RAGatouille":{
+    "index_config":{
+      "index_type":"PLAID",
+      "index_name":"Haiti_Gang violence and humanitarian crisis in Haiti-Week 40 2024-summary"
+    }
+  }
+}
