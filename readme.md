@@ -6,7 +6,12 @@ This repository contains the complete implementation, data, and results for the 
 
 This framework automatically generates comprehensive situation reports from humanitarian documents for specific events. The pipeline processes raw humanitarian data through multiple stages—including document clustering, question generation, answer extraction, and report synthesis—to produce structured, citation-backed reports that can be organized by topics or Sustainable Development Goals (SDGs).
 
-![Pipeline Overview](./Images/pipeline.pdf)
+
+**Explore interactive generated reports here:**  
+https://idecost.github.io/LLM-SituationalReports/Viewer/viewer_v2.html
+![Pipeline Overview](./Images/pipeline.png)
+
+
 *The complete workflow from document selection to final report generation*
 
 ## Repository Structure
