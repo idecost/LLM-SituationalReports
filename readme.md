@@ -12,7 +12,22 @@ https://idecost.github.io/LLM-SituationalReports/Viewer/viewer_v2.html
 ![Pipeline Overview](./Images/pipeline.png)
 
 
+
 *The complete workflow from document selection to final report generation*
+
+
+## Citation
+
+If you use this work, please cite:
+```bibtex
+@article{decostanzi2025large,
+  title={A Large-Language-Model Framework for Automated Humanitarian Situation Reporting},
+  author={Decostanzi, Ivan and Mejova, Yelena and Kalimeri, Kyriaki},
+  journal={arXiv preprint arXiv:2512.19475},
+  year={2025}
+}
+```
+
 
 ## Repository Structure
 ```
@@ -23,6 +38,9 @@ https://idecost.github.io/LLM-SituationalReports/Viewer/viewer_v2.html
 ```
 
 ---
+
+
+
 
 ## Pipeline Workflow
 
@@ -235,17 +253,7 @@ Final post-processing step that ensures consistent and unique citation numbering
 
 ---
 
-## Citation
-
-If you use this code or framework in your research, please cite our paper:
-```bibtex
-[Add your citation here]
-```
-
-## License
-
-[Add your license information here]
 
 ## Contact
 
-[Add contact information here]
+ivan.decostanzi@isi.it
