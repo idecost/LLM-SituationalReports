@@ -2,6 +2,18 @@
 
 This repository contains the complete implementation, data, and results for the paper *"A Large-Language-Model Framework for Automated Humanitarian Situation Reporting"*.
 
+## Citation
+
+If you use this work, please cite:
+```bibtex
+@article{decostanzi2025large,
+  title={A Large-Language-Model Framework for Automated Humanitarian Situation Reporting},
+  author={Decostanzi, Ivan and Mejova, Yelena and Kalimeri, Kyriaki},
+  journal={arXiv preprint arXiv:2512.19475},
+  year={2025}
+}
+```
+
 ## Overview
 
 This framework automatically generates comprehensive situation reports from humanitarian documents for specific events. The pipeline processes raw humanitarian data through multiple stages—including document clustering, question generation, answer extraction, and report synthesis—to produce structured, citation-backed reports that can be organized by topics or Sustainable Development Goals (SDGs).
@@ -16,17 +28,7 @@ https://idecost.github.io/LLM-SituationalReports/Viewer/viewer_v2.html
 *The complete workflow from document selection to final report generation*
 
 
-## Citation
 
-If you use this work, please cite:
-```bibtex
-@article{decostanzi2025large,
-  title={A Large-Language-Model Framework for Automated Humanitarian Situation Reporting},
-  author={Decostanzi, Ivan and Mejova, Yelena and Kalimeri, Kyriaki},
-  journal={arXiv preprint arXiv:2512.19475},
-  year={2025}
-}
-```
 
 
 ## Repository Structure
